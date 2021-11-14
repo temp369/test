@@ -4,9 +4,9 @@ __pycache__/
 *$py.class
 
 # exclude everything in folder
-/logs/*
-/report/*
-/temp/*
+/logs/
+/report/
+/temp/
 
 
 # exception to the rule

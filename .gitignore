@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# exclude everything
+# exclude everything in folder
 /logs/
 /report/
 /temp/

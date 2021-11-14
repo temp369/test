@@ -4,16 +4,18 @@ __pycache__/
 *$py.class
 
 # exclude everything
-logs/*
-reports/*
-temps/*
+/logs/*
+/reports/*
+/temp/*
 
 
 # exception to the rule
-!somefolder/.gitkeep 
-!logs/.gitkeep 
-!reports/.gitkeep 
-!temps/.gitkeep 
+
+!/logs/.gitkeep 
+!/reports/.gitkeep 
+!/temp/.gitkeep 
+
+
 
 
 # C extensions

@@ -3,23 +3,17 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-
-# exclude everything in folder 
+# exclude everything
 logs/*
 reports/*
-temp/*
+temps/*
 
 
 # exception to the rule
-
+!somefolder/.gitkeep 
 !logs/.gitkeep 
 !reports/.gitkeep 
-!temp/.gitkeep 
-
-
-
-
-
+!temps/.gitkeep 
 
 
 # C extensions
